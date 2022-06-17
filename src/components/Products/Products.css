@@ -1,0 +1,8 @@
+.wrapperCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Items h2{
+    text-align: center;
+}

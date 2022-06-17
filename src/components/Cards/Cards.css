@@ -1,0 +1,40 @@
+.card{
+    width: 18em;
+    height: 25em;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.titleCard{
+    margin: 0 auto;
+    border: solid 1px green;
+}
+.infoCard{
+    margin: 0 auto;
+    border: solid 1px pink;
+}
+.discribCard{
+    border: solid 1px black;
+}
+.cardBtn{
+    width: fit-content;
+    margin: 0 auto;
+    border: solid 1px black;
+}
+.priceCard{
+    position: absolute;
+    right: -1.5em;
+    top: -1.5em;
+    width: 3em;height: 3em;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border: solid 1px blue;
+}

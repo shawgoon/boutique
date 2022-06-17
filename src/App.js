@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Menu from './components/Menu/Menu';
+import Products from './components/Products/Products';
+import Cart from './components/Cart/Cart';
 import './App.css';
 
-function App() {
+function App(props) {
+  const [displayCart, setDisplayCart] = useState(false);
+  function handleClick(){
+    console.log("ça marche !");
+    setDisplayCart(!displayCart);
+  }
+  // function displayCart(){
+  //   console.log("bouton cart");
+  // }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <Menu action={()=>{handleClick()}}></Menu>
       </header>
+      <main>
+        {displayCart ? <Cart/>:""}
+        <Products></Products>
+        {/* if(displayCart  === true){
+          </Cart>
+        }else{
+          ""
+        } c'est égal à la fonction suivante
+         */}
+        
+      </main>
     </div>
   );
 }

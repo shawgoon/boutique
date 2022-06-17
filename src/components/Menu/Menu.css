@@ -1,0 +1,32 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.headerNav{  
+    background-color: rgb(247, 151, 215);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logoNav{
+    padding-left: 1em;
+}
+.logoNav span{
+    color: red;
+}
+.btnNav{
+    padding: 1em 3em;
+    list-style: none;
+}
+.link{
+    color: rgb(255, 5, 5);
+    text-decoration: none;
+}
+.btnNav:hover{
+    cursor: pointer;
+    background-color: rgb(233, 133, 233);
+}
