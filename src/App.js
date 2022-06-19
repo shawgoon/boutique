@@ -19,14 +19,15 @@ function App(props) {
         <Menu action={()=>{handleClick()}}></Menu>
       </header>
       <main>
-        {displayCart ? <Cart/>:""}
-        <Products></Products>
-        {/* if(displayCart  === true){
+         {/* if(displayCart  === true){
           </Cart>
         }else{
           ""
         } c'est égal à la fonction suivante
          */}
+        {displayCart ? <Cart/>:""}
+        <Products></Products>
+       
         
       </main>
     </div>

@@ -5,10 +5,10 @@ function Cards(props){
     return(
         <div className="card">
             <div className="priceCard">{props.prix}</div>
-            <img src={props.cover} alt="" />
+            <img src={props.cover} className="imgCard" alt={props.title} />
             <h3 className="titleCard">{props.title}</h3>
             <div className="infoCard">{props.artist} - {props.genre} - {props.annee}</div>
-            <p className="discribCard">{props.description}</p>
+            <p className="discribCard">{props.children}</p>
             <div className="cardBtn">
                 <BuyBtn quantity={props.quantity}/>
             </div>
