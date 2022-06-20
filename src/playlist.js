@@ -8,7 +8,7 @@ const playlist = [
         "artist":"Aretha Franklin",
         "genre": "soul",
         "annee": 2002,
-        "prix": "0.00",
+        "prix": "4.99",
         "quantity": 5,
         "description":"blabla"
     },
@@ -21,7 +21,7 @@ const playlist = [
         "artist":"Aretha Franklin",
         "genre": "soul",
         "annee": 2002,
-        "prix": "0.00",
+        "prix": "9.99",
         "quantity": 0,
         "description":"blablabla"
     },
@@ -34,7 +34,7 @@ const playlist = [
         "artist":"Aretha Franklin",
         "genre": "soul",
         "annee": 2002,
-        "prix": "0.00",
+        "prix": "9.99",
         "quantity": 5,
         "description":"blablablabla"
     }
